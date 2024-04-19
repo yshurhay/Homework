@@ -52,5 +52,3 @@ class Warrior:
                 f'Exp: {self.exp}\n'
                 f'Rank: {self.rank}\n'
                 f'Achievements: {self.achievements}')
-
-
