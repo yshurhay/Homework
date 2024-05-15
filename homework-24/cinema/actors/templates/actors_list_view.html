@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACTORS</title>
+</head>
+<body>
+<h1>ALL ACTORS</h1>
+{% for actor in actors %}
+<h3><li>{{ actor.name }} {{ actor.surname }}</li></h3>
+{% endfor %}
+</body>
+</html>
